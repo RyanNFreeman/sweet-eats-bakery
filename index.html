@@ -5,22 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Gaegu|Roboto" rel="stylesheet">    
     <script src="main.js"></script>
 </head>
 <body>
     <div class="container">
             <h1>Sweet Eats Bakery</h1>
+            <hr/>
             <header>
-                <nav>
-                <a href="#">About</a>
-                <a href="#">Cookies</a>
-                <a href="#">Weddings</a>
-                <a href="#">Catering</a>
-                <a href="#">Contact</a>
+                <nav class="navbar navbar-expand-md navbar-dark sticky-top">
+                    <button class="navbar-toggler b" data-toggle="collapse" data-target="#collapse_target">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target">
+                        <span class="caret">What We Do</span>
+                    </a>
+                <div class="dropdown-menu" aria-labelledby="dropdown_target">
+                    <a class="dropdown-item">About</a>
+                    <a class="dropdown-item">Cookies</a>
+                    <a class="dropdown-item">Weddings</a>
+                    <a class="dropdown-item">Catering</a>
+                    <a class="dropdown-item">Contact</a>
+                </div>
+
+                </li>
+                </ul>
                 </nav>
-                <img src="https://tk-assets.lambdaschool.com/bcf76f62-2431-4c22-b466-2e711f3da2b9_ui-i-bakery-main-header.png" alt="">
                 <section class="about">
                 <h2>About Sweet Eats Bakery</h2>
                 <p>Marzipan jelly-o macaroon I love macaroon jujubes. Candy candy canes jujubes I love ice cream croissant. Lollipop donut icing I love liquorice gummi bears marzipan. Dragée jelly beans apple pie cotton candy lemon drops pastry candy msg powder.</p>
